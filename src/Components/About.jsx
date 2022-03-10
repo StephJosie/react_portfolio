@@ -6,23 +6,21 @@ export default function About() {
         <div>
             <Container>
 
-                <div class="row">
-                    <div class="col">
-                        <div class="card text-center border-0">
-
-                            <div class="card-body">
-                                <h1 class="card-title" id="aboutme">About Me</h1>
-                                <p class="card-text-center">My name is Stephanie Apodaca. I am a single mom and currently work for Kaiser
+                <div className="row">
+                    <div className="col">
+                        <div className="card text-center border-0">
+                            <div className="card-body">
+                                <h1 className="card-title" id="aboutme">About Me</h1>
+                                <p className="card-text-center">My name is Stephanie Apodaca. I am a single mom and currently work for Kaiser
                                     Permanente, San Diego.
                                     I have been interested in accomplishing a coding bootcamp for a few years, I was recently given the
                                     opportunity
                                     to attend one. I enjoy photography and dog rescue. I look forward to improving on my portfolio.</p>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
+
 
             </Container>
 

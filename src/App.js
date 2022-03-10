@@ -1,13 +1,35 @@
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
-import Header from './Components/Header.jsx';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from './Components/About.jsx';
+import Home from "./Components/Home";
+import Projects from './Components/Projects.jsx';
+import "./App.css"
+import Header from './Components/Header.jsx';
+import Contact from './Components/Contact.jsx';
 function App() {
   return (
-    <>
-      <Header />
-      <About />
-    </>
+
+
+
+    <Router>
+      <div>
+        <>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/About">
+              <About />
+            </Route>
+            <Route exact path="/Projects">
+              <Projects />
+            </Route>
+          </Switch>
+          <Contact exact path="/Contact" />
+        </>
+      </div>
+    </Router>
   )
 
 
@@ -15,3 +37,10 @@ function App() {
 };
 
 export default App;
+
+
+
+
+
+
+

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "react-bootstrap/Navbar"
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
+import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <div>
@@ -12,10 +13,11 @@ export default function Header() {
                 <Container>
                     <Navbar.Brand href="#home">Stephanie Apodaca</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#aboutme">About Me</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Link to="/">Home</Link>
+                        <Link to="/About">About</Link>
+                        <Link to="/Projects">Projects</Link>
+                        <Link to="/Contact">Contact</Link>
+
                     </Nav>
                 </Container>
             </Navbar>
