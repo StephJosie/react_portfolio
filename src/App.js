@@ -6,6 +6,7 @@ import Projects from './Components/Projects.jsx';
 import "./App.css"
 import Header from './Components/Header.jsx';
 import Contact from './Components/Contact.jsx';
+import Footer from './Components/Footer.jsx';
 function App() {
   return (
 
@@ -27,6 +28,7 @@ function App() {
             </Route>
           </Switch>
           <Contact exact path="/Contact" />
+          <Footer />
         </>
       </div>
     </Router>
