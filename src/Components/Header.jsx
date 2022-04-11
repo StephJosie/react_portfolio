@@ -14,10 +14,10 @@ export default function Header() {
                     <Navbar.Brand href="#home">Stephanie Apodaca</Navbar.Brand>
                     <Nav className="me-auto">
 
-                        <Button className="text-black " onClick={() => window.open(URL = "/", '_blank')}>Home</Button>
-                        <Button className="text-black " onClick={() => window.open(URL = "/About", '_blank')}>About</Button>
-                        <Button className="text-black " onClick={() => window.open(URL = "/Projects", '_blank')}>Projects</Button>
-                        <Button className="text-black " onClick={() => window.open(URL = "/Contact", '_blank')}>Contact</Button>
+                        <Button className="text-black border-dark " onClick={() => window.open(URL = "/", '_blank')}>Home</Button>
+                        <Button className="text-black border-dark " onClick={() => window.open(URL = "/About", '_blank')}>About</Button>
+                        <Button className="text-black border-dark " onClick={() => window.open(URL = "/Projects", '_blank')}>Projects</Button>
+                        <Button className="text-black border-dark" onClick={() => window.open(URL = "/Contact", '_blank')}>Contact</Button>
                     </Nav>
                 </Container>
             </Navbar>
