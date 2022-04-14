@@ -7,6 +7,7 @@ import "./App.css"
 import Header from './Components/Header.jsx';
 import Contact from './Components/Contact.jsx';
 import Footer from './Components/Footer.jsx';
+import Photography from './Components/Photography';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/Projects">
             <Projects />
+          </Route>
+          <Route exact path="/Photography">
+            <Photography />
           </Route>
         </Switch>
         <Contact exact path="/Contact" />
