@@ -15,22 +15,22 @@ function App() {
 
     <Router>
       <div>
-        <>
-          <Header />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/About">
-              <About />
-            </Route>
-            <Route exact path="/Projects">
-              <Projects />
-            </Route>
-          </Switch>
-          <Contact exact path="/Contact" />
-          <Footer />
-        </>
+
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/About">
+            <About />
+          </Route>
+          <Route exact path="/Projects">
+            <Projects />
+          </Route>
+        </Switch>
+        <Contact exact path="/Contact" />
+        <Footer />
+
       </div>
     </Router>
   )
